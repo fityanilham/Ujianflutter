@@ -115,31 +115,25 @@ class Sholat extends StatelessWidget {
                   Container(
                     margin: EdgeInsets.all(20),
                     width: 450.0,
-                    child:Card(
-                      child:Wrap(
-                        children: <Widget>[
-                          Column(
-                            children: [
-                              SizedBox(height: 20,),
-                              Text("1. Mengingat Allah", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("2. Menjadi Penolong", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("3. Mencegah Perbuatan Keji dan Mungkar", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("4. Penghapus Dosa", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("5. Bentuk Syukur kepada Allah", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("6. Amalan Utama", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("7. Penghapus Semua Kesalahan", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("8. Cahaya di Hari Kiamat", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                            ],
-                          )
-                        ],
-                      ),
+                    child: Column(
+                      children: [
+                        SizedBox(height: 20,),
+                        Text("1. Mengingat Allah", style: TextStyle(fontSize: 20), textAlign: TextAlign.start,),
+                        SizedBox(height: 20,),
+                        Text("2. Menjadi Penolong", style: TextStyle(fontSize: 20), textAlign: TextAlign.start,),
+                        SizedBox(height: 20,),
+                        Text("3. Mencegah Perbuatan Keji dan Mungkar", style: TextStyle(fontSize: 20), textAlign: TextAlign.start,),
+                        SizedBox(height: 20,),
+                        Text("4. Penghapus Dosa", style: TextStyle(fontSize: 20), textAlign: TextAlign.start,),
+                        SizedBox(height: 20,),
+                        Text("5. Bentuk Syukur kepada Allah", style: TextStyle(fontSize: 20), textAlign: TextAlign.start,),
+                        SizedBox(height: 20,),
+                        Text("6. Amalan Utama", style: TextStyle(fontSize: 20), textAlign: TextAlign.start,),
+                        SizedBox(height: 20,),
+                        Text("7. Penghapus Semua Kesalahan", style: TextStyle(fontSize: 20), textAlign: TextAlign.start,),
+                        SizedBox(height: 20,),
+                        Text("8. Cahaya di Hari Kiamat", style: TextStyle(fontSize: 20), textAlign: TextAlign.start,),
+                      ],
                     ),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15.0),

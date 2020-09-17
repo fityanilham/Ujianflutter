@@ -104,35 +104,29 @@ class Alquran extends StatelessWidget {
                   Container(
                     margin: EdgeInsets.all(20),
                     width: 450.0,
-                    child:Card(
-                      child:Wrap(
-                        children: <Widget>[
-                          Column(
-                            children: [
-                              SizedBox(height: 20,),
-                              Text("1. Membaca Al Quran Akan Mendapat Banyak Keuntungan", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("2. Tetap Dapat Pahala  Meskipun Tidak Lancar dalam Membacanya", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("3. Mendatangkan Syafa’at Di Hari Kiamat", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("4. Membaca Al Quran merupakan Salah Satu Ibadah yang Agung", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("5. Dapat Menjadi Hati Lebih Tentram", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("6. Penyakit Bisa Sembuh dengan Membaca Al Quran", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("7. Hatinya Akan Dikaruniai Cahaya", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("8. Memperoleh Kemuliaan", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("9. Memperoleh Kedudukan Tinggi Di Surga", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                              SizedBox(height: 20,),
-                              Text("10. Ahlul Quran Menjadi Keluarga Allah SWT", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
-                            ],
-                          )
-                        ],
-                      ),
+                    child:Column(
+                      children: [
+                        SizedBox(height: 20,),
+                        Text("1. Membaca Al Quran Akan Mendapat Banyak Keuntungan", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                        SizedBox(height: 20,),
+                        Text("2. Tetap Dapat Pahala  Meskipun Tidak Lancar dalam Membacanya", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                        SizedBox(height: 20,),
+                        Text("3. Mendatangkan Syafa’at Di Hari Kiamat", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                        SizedBox(height: 20,),
+                        Text("4. Membaca Al Quran merupakan Salah Satu Ibadah yang Agung", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                        SizedBox(height: 20,),
+                        Text("5. Dapat Menjadi Hati Lebih Tentram", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                        SizedBox(height: 20,),
+                        Text("6. Penyakit Bisa Sembuh dengan Membaca Al Quran", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                        SizedBox(height: 20,),
+                        Text("7. Hatinya Akan Dikaruniai Cahaya", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                        SizedBox(height: 20,),
+                        Text("8. Memperoleh Kemuliaan", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                        SizedBox(height: 20,),
+                        Text("9. Memperoleh Kedudukan Tinggi Di Surga", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                        SizedBox(height: 20,),
+                        Text("10. Ahlul Quran Menjadi Keluarga Allah SWT", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                      ],
                     ),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(15.0),
