@@ -92,6 +92,9 @@ class Alquran extends StatelessWidget {
         ),
         body: ListView(
           children:<Widget>[
+            ListTile(
+              title: Text('Keutamaan Membaca AlQuran', textAlign: TextAlign.center,),
+            ),
             Container(
               // margin: EdgeInsets.all(20),
               height: 700,
@@ -106,11 +109,26 @@ class Alquran extends StatelessWidget {
                         children: <Widget>[
                           Column(
                             children: [
-                              Text("Dibaca 1x", textAlign: TextAlign.center,),
                               SizedBox(height: 20,),
-                              Text("أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                              Text("1. Membaca Al Quran Akan Mendapat Banyak Keuntungan", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
                               SizedBox(height: 20,),
-                              Text("“Aku berlindung kepada Allah dari godaan syaitan yang terkutuk.”", style: TextStyle(fontSize: 15), textAlign: TextAlign.center,),
+                              Text("2. Tetap Dapat Pahala  Meskipun Tidak Lancar dalam Membacanya", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                              SizedBox(height: 20,),
+                              Text("3. Mendatangkan Syafa’at Di Hari Kiamat", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                              SizedBox(height: 20,),
+                              Text("4. Membaca Al Quran merupakan Salah Satu Ibadah yang Agung", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                              SizedBox(height: 20,),
+                              Text("5. Dapat Menjadi Hati Lebih Tentram", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                              SizedBox(height: 20,),
+                              Text("6. Penyakit Bisa Sembuh dengan Membaca Al Quran", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                              SizedBox(height: 20,),
+                              Text("7. Hatinya Akan Dikaruniai Cahaya", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                              SizedBox(height: 20,),
+                              Text("8. Memperoleh Kemuliaan", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                              SizedBox(height: 20,),
+                              Text("9. Memperoleh Kedudukan Tinggi Di Surga", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
+                              SizedBox(height: 20,),
+                              Text("10. Ahlul Quran Menjadi Keluarga Allah SWT", style: TextStyle(fontSize: 20), textAlign: TextAlign.center,),
                             ],
                           )
                         ],

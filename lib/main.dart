@@ -31,7 +31,10 @@ class _MyAppState extends State<MyApp> {
           padding: EdgeInsets.zero,
           children: <Widget>[
             DrawerHeader(
-              child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU")
+              child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU"),
+              decoration: BoxDecoration(
+                color: Colors.purpleAccent
+              ),
             ),
             ListTile(
               title: Text('Baca Alquran'),
@@ -331,6 +334,8 @@ class _MyAppState extends State<MyApp> {
                     ),
                   ]
                 ),
+                SizedBox(height: 20.0,),
+                Text("Artikel hari ini"),
                 SizedBox(height: 20.0,),
                 ListTile(
                   title: Container(
