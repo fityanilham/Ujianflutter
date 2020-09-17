@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dzikirpagi.dart' as pagi;
+import 'main.dart' as dart;
 
 void main() {
   runApp(DzikirPetang());
@@ -517,7 +518,10 @@ class DzikirPetang extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton.extended(
           onPressed: () {
-           Navigator.pop(context);
+            Navigator.push(
+             context, 
+             MaterialPageRoute(builder: (context) => dart.MyApp())
+            );
           },
           icon: Icon(Icons.backspace),
           label: Text("Kembali ke halaman utama")

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dzikirpetang.dart' as petang;
+import 'main.dart' as dart;
 
 void main() {
   runApp(Sholat());
@@ -567,7 +568,10 @@ class Sholat extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton.extended(
           onPressed: () {
-           Navigator.pop(context);
+            Navigator.push(
+             context, 
+             MaterialPageRoute(builder: (context) => dart.MyApp())
+            );
           },
           icon: Icon(Icons.backspace),
           label: Text("Kembali ke halaman utama")
