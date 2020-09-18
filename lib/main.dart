@@ -378,7 +378,7 @@ class _MyAppState extends State<MyApp> {
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: <Widget>[
                             ListTile(
-                              leading: Image.network("https://cdn1-production-images-kly.akamaized.net/BGzsKw0VIruyD116Uh7q6XsFCiQ=/640x480/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3085037/original/045822000_1585108524-tata-cara-sholat-dhuha-180726z.jpg", height: 50,),
+                              leading: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR0QThDzYdqPstwKMOGCMpnA2eJcM78NaJllg&usqp=CAU", height: 50,),
                               title: Text('Keutamaan Sholat 5 Waktu', style: TextStyle(color: Colors.black)),
                             ),
                           ],
