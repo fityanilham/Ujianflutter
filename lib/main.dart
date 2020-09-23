@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'dzikirpagi.dart' as pagi;
 import 'dzikirpetang.dart' as petang;
 import 'corona.dart' as corona;
-import 'sholat.dart' as sholat;
+import 'waksolat.dart' as sholat;
 import 'alquran.dart' as alquran;
 
 void main() {
@@ -29,13 +29,23 @@ class _MyAppState extends State<MyApp> {
       drawer: Drawer(
         child: ListView(
           padding: EdgeInsets.zero,
-          children: <Widget>[
-            DrawerHeader(
-              child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU"),
+          children: [
+            UserAccountsDrawerHeader(
+              accountName: Text("Fluter"),
+              accountEmail: Text("flutter@gmail.com"),
+              currentAccountPicture: CircleAvatar(
+                backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU"),
+              ),
               decoration: BoxDecoration(
-                color: Colors.purpleAccent
+                color: Colors.blueAccent[200]
               ),
             ),
+            // DrawerHeader(
+            //   child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU"),
+            //   decoration: BoxDecoration(
+            //     color: Colors.purpleAccent
+            //   ),
+            // ),
             ListTile(
               title: Text('Baca Alquran'),
               trailing: Icon(Icons.chevron_right),
@@ -61,7 +71,10 @@ class _MyAppState extends State<MyApp> {
               title: Text('Waktu Shalat'),
               trailing: Icon(Icons.chevron_right),
               onTap: () {
-                // do something// do something
+                Navigator.push(
+                  context, 
+                  MaterialPageRoute(builder: (context) => sholat.Sholat() )
+                );
               },
             ),
             ListTile(
