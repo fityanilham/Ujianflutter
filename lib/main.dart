@@ -30,22 +30,22 @@ class _MyAppState extends State<MyApp> {
         child: ListView(
           padding: EdgeInsets.zero,
           children: [
-            UserAccountsDrawerHeader(
-              accountName: Text("Fluter"),
-              accountEmail: Text("flutter@gmail.com"),
-              currentAccountPicture: CircleAvatar(
-                backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU"),
-              ),
-              decoration: BoxDecoration(
-                color: Colors.blueAccent[200]
-              ),
-            ),
-            // DrawerHeader(
-            //   child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU"),
+            // UserAccountsDrawerHeader(
+            //   accountName: Text("Fluter"),
+            //   accountEmail: Text("flutter@gmail.com"),
+            //   currentAccountPicture: CircleAvatar(
+            //     backgroundImage: NetworkImage("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU"),
+            //   ),
             //   decoration: BoxDecoration(
-            //     color: Colors.purpleAccent
+            //     color: Colors.purple[600]
             //   ),
             // ),
+            DrawerHeader(
+              child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSejCufqekqw27KmFC7zMeec__1dBZnSMYcIA&usqp=CAU"),
+              decoration: BoxDecoration(
+                color: Colors.purple[600]
+              ),
+            ),
             ListTile(
               title: Text('Baca Alquran'),
               trailing: Icon(Icons.chevron_right),
@@ -146,7 +146,7 @@ class _MyAppState extends State<MyApp> {
 
                         },
                         child: Container(
-                          width: 100.0,
+                          width: 90.0,
                           height: 130.0,
                           padding: EdgeInsets.all(10.0),
                           child: Column (
@@ -170,15 +170,14 @@ class _MyAppState extends State<MyApp> {
 
                         },
                         child: Container(
-                          width: 100.0,
+                          width: 90.0,
                           height: 130.0,
-                          padding: EdgeInsets.all(13.0),
+                          padding: EdgeInsets.all(11.0),
                           child: Column (
                             children: <Widget> [
                               Center (
                                 child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlvGSN9TrX0PPJGsWkdi7fVh22oeNv2apJmA&usqp=CAU', height: 70, alignment: Alignment.center,),
                               ),
-                              Padding(padding: EdgeInsets.all(6)),
                               Text('Ruang Chat', textAlign: TextAlign.center,)
                             ]
                           ),
@@ -194,7 +193,7 @@ class _MyAppState extends State<MyApp> {
 
                         },
                         child: Container(
-                          width: 100.0,
+                          width: 90.0,
                           height: 130.0,
                           padding: EdgeInsets.all(15.0),
                           child: Column (
@@ -202,7 +201,7 @@ class _MyAppState extends State<MyApp> {
                               Center (
                                 child: Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-p-fvVtARmsM8fP6cE1n3CyzcWqVn49WyOA&usqp=CAU', height: 60, alignment: Alignment.center,),
                               ),
-                              Padding(padding: EdgeInsets.all(9)),
+                              Padding(padding: EdgeInsets.all(2)),
                               Text('Info kajian', textAlign: TextAlign.center,)
                             ]
                           ),
@@ -218,7 +217,7 @@ class _MyAppState extends State<MyApp> {
 
                         },
                         child: Container(
-                          width: 100.0,
+                          width: 90.0,
                           height: 130.0,
                           padding: EdgeInsets.all(20.0),
                           child: Column (
@@ -252,7 +251,7 @@ class _MyAppState extends State<MyApp> {
                         );
                       },
                       child: Container(
-                        width: 100.0,
+                        width: 90.0,
                         height: 130.0,
                         padding: EdgeInsets.all(12.0),
                         child: Column (
@@ -279,7 +278,7 @@ class _MyAppState extends State<MyApp> {
                         );
                       },
                       child: Container(
-                        width: 100.0,
+                        width: 90.0,
                         height: 130.0,
                         padding: EdgeInsets.all(10.0),
                         child: Column (
@@ -303,7 +302,7 @@ class _MyAppState extends State<MyApp> {
 
                       },
                       child: Container(
-                        width: 100.0,
+                        width: 90.0,
                         height: 130.0,
                         padding: EdgeInsets.all(10.0),
                         child: Column (
@@ -327,7 +326,7 @@ class _MyAppState extends State<MyApp> {
 
                       },
                       child: Container(
-                        width: 100.0,
+                        width: 90.0,
                         height: 130.0,
                         padding: EdgeInsets.all(10.0),
                         child: Column (
