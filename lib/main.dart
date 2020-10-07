@@ -408,7 +408,7 @@ class _MyAppState extends State<MyApp> {
                         onTap: () {
                           Navigator.push(
                             context, 
-                            MaterialPageRoute(builder: (context) => alquran.Alquran())
+                            MaterialPageRoute(builder: (context) => alquran.HalamanJson())
                           );
                         },
                         child: Column(
